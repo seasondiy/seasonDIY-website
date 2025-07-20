@@ -1,0 +1,105 @@
+/* style.css - SeasonDIY Custom Theme */
+/* style.css - seasonDIY Theme */
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  background-color: #fff5f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+header {
+  background-color: #ffdfe6;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 2px solid #f7c0cc;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #b54865;
+}
+
+header h1 span {
+  color: #d6366c;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #5e5e5e;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+.plan {
+  background-color: #fff;
+  border: 1px solid #ffd1dd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.plan:hover {
+  transform: scale(1.03);
+}
+
+.plan h2 {
+  font-size: 1.4rem;
+  color: #c52955;
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.plan ul li {
+  margin-bottom: 0.8rem;
+  color: #555;
+}
+
+.plan .btn {
+  display: block;
+  text-align: center;
+  background-color: #c52955;
+  color: #fff;
+  padding: 0.7rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.plan .btn:hover {
+  background-color: #a81c44;
+}
+
+.featured {
+  border: 2px solid #ff7fa2;
+  background-color: #fff1f5;
+}
+
+.vip {
+  border: 2px solid #dab6ff;
+  background-color: #f7f2ff;
+}
+
+footer {
+  background-color: #f8d7df;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}

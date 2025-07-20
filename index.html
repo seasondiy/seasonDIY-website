@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>seasonDIY – تحليل ألوانك</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- رابط ملف CSS من static -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- مثال: رابط ملف جافاسكريبت لو أضفتِ واحد مستقبلاً -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <!-- خط جوجل -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>مرحبًا بك في <span>seasonDIY</span></h1>
+        <!-- شعار أو صورة توضيحية من static/images -->
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="شعار seasonDIY" style="max-width:100px; display:block; margin: 1rem auto;">
+        <p>منصة تحليل ألوانك الموسمية وهويتك الجمالية بالكامل ✨</p>
+    </header>
+
+    <section class="plans">
+        <div class="plan">
+            <h2>💎 همسة لونك – 49 ر.س</h2>
+            <ul>
+                <li>تحليل الأندرتون: دافئ، بارد، محايد</li>
+                <li>6 ألوان تناسب بشرتك</li>
+                <li>ملاحظات شخصية لتعزيز إشراقتك</li>
+                <li><strong>تسليم:</strong> 24 ساعة</li>
+            </ul>
+            <a href="#" class="btn">اطلبي الآن</a>
+        </div>
+
+        <div class="plan featured">
+            <h2>🌸 ألوانك الموسمية – 149 ر.س</h2>
+            <ul>
+                <li>كل مزايا "همسة لونك"</li>
+                <li>تحليل الموسم بدقة (من 12 موسم عالمي)</li>
+                <li>لوحة ألوان باسمك</li>
+                <li>كتيب PDF أنيق</li>
+                <li><strong>تسليم:</strong> 48 ساعة</li>
+            </ul>
+            <a href="#" class="btn">اطلبي الآن</a>
+        </div>
+
+        <div class="plan vip">
+            <h2>👑 هويتك الكاملة (VIP) – 399 ر.س</h2>
+            <ul>
+                <li>كل مزايا الباقة الموسمية</li>
+                <li>تحليل شكل الجسم والوجه</li>
+                <li>اقتراحات ملابس وقصات شعر</li>
+                <li>روابط تسوق لأطقم من زارا وH&M</li>
+                <li>كتيب فاخر لتصميم كبسولة ملابس باسمك</li>
+                <li><strong>تسليم:</strong> 3–5 أيام</li>
+            </ul>
+            <a href="#" class="btn">اطلبي الآن</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 seasonDIY. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
